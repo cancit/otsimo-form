@@ -14,7 +14,7 @@ import {
 import AddIcon from "@material-ui/icons/Add";
 import RemoveIcon from "@material-ui/icons/Delete";
 import { SelectArea } from "./components/select";
-import { BaseFormSchema, FormType } from "./types";
+import { FormType } from "./types/index";
 import { StringArray } from "./components/array";
 import { TextArea } from "./components/text";
 import { MapArea } from "./components/map";

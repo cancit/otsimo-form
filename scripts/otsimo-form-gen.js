@@ -3,7 +3,13 @@
 const pbjs = require("protobufjs/cli/pbjs"); // or require("protobufjs/cli").pbjs / .pbts
 const fs = require("fs");
 
-const wellknownTypes = { string: "string", int32: "number", float: "number" };
+const wellknownTypes = {
+  string: "string",
+  int32: "number",
+  float: "number",
+  bool: "boolean",
+  "google.protobuf.Timestamp": "date"
+};
 
 function camelCaseToWords(str) {
   return str
